@@ -15,6 +15,7 @@ jobs:
         run: |
           pip install sphinx sphinx_rtd_theme myst_parser
           pip install sphinx cloud-sptheme myst_parser
+          pip install sphinx renku-sphinx-theme myst_parser
       - name: Sphinx build
         run: |
           sphinx-build doc _build
